@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+}
+
+header {
+    min-height: 15vh;
+    max-height: 20vh;
+    background-color: aqua;
+    padding: 1.5rem;
+}
+
+nav {
+    position: absolute;
+    right: 1.5rem;
+    display: inline-block;
+}
+
+
+
+main aside.leftbar {
+    display: inline-block;
+    min-height: 80vh;
+    min-width: 30vw;
+    max-width: 30vw;
+    padding: 10px;
+    background-color: royalblue;
+}
+
+
+main aside.leftbar div{
+    
+    display: block;
+    margin: 3vh;
+    padding: 4rem;
+    min-height: 20vh;
+    max-height: 30vh;
+    border-radius: 5px;
+    background-color:rgb(0, 153, 255);
+
+}
+
+
+
+main section.content{
+    min-height: 80vh;
+    min-width: 70vh;
+    display: inline-block;
+    padding: 10px;
+    position: absolute; 
+    background-color: rgb(67, 149, 13);
+}
